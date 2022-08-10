@@ -14,13 +14,13 @@ func buildSign(for occasion: String, name: String) -> String {
 }
 
 func graduationFor(name: String, year: Int) -> String {
-    return "Congrulations \(name)\nClass of \(year)"
+    return "Congrulations \(name)!\nClass of \(year)"
 }
 
 func costOf(sign: String) -> Int {
-    var resposta: Int = 0
+    var response: Int = 0
     for _ in sign {
-        resposta += 2
+        response += 2
     }
-    return resposta + 20
+    return response + 20
 }
